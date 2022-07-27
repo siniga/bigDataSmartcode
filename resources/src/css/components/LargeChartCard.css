@@ -1,0 +1,30 @@
+.large-chart-card{
+    background-color: white;
+    width: 94%;
+    padding: 20px;
+    height: 430px;
+    border-radius: 10px;
+}
+.chart-card-filter-wrapper {
+    display: flex;
+}
+.chart-card-filter-wrapper ul{
+    padding: 0;
+    display: flex;
+    gap:20px;
+    color: #666666;
+    font-size: 13px;
+}
+
+.chart-card-filter-wrapper ul li{
+   cursor: pointer;
+
+}
+.chart-card-filter-wrapper ul li.active{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    line-height: 18px;
+    height: 20px;
+    color: #5baa46;
+    padding: 0 10px 0px 10px;
+}

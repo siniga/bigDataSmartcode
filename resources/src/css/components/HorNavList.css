@@ -1,0 +1,16 @@
+.horizontal-list{
+    width: 97%;
+}
+.horizontal-list ul{
+    display: flex;
+    gap: 30px;
+    border-bottom: #e5e5e5 solid thin;
+}
+.row{
+    cursor: pointer;
+}
+.horizontal-list .row.active{
+    color: #5baa46;
+    border-bottom: solid 3px #5baa46;
+    padding-bottom: 18px;
+}

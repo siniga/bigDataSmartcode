@@ -1,0 +1,15 @@
+.products-page{
+    padding:20px
+}
+.products-page .main-content{
+    padding: 30px;
+}
+.products-page .new-btn-wrapper{
+    width: 96%;
+    display: flex;
+    justify-content: right;
+}
+.add-item-btn{
+    width: 220px;
+    height: 35px;
+}

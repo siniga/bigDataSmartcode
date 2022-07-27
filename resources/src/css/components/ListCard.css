@@ -1,0 +1,27 @@
+.horizontal-list-card{
+    width: 100%;
+    background-color: white;
+    padding:30px 20px 20px 20px;
+    border-radius: 10px;
+}
+.horizontal-list-card ul {
+    margin-top:25px;
+}
+.horizontal-list-card li {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+.horizontal-list-card span:nth-child(2){
+    width: 150px;
+    text-align: left;
+}
+.horizontal-list-card li img {
+    width: 40px;
+}
+.item-name-wrapper{
+    display: flex;
+    flex-direction: column;
+}

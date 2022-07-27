@@ -1,0 +1,11 @@
+.small-chart-card{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    padding:30px 20px 20px 20px;
+    border-radius: 10px;
+}
+.small-chart-card .sub-header{
+    color: grey;
+    font-size: 12px;
+}
